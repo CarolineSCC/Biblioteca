@@ -1,0 +1,141 @@
+header {
+    background-color: #ffd25e; /* Cor de fundo */
+    padding: 20px 0;
+    display: flex;
+    align-items: center; /* Alinha verticalmente os itens no centro */
+}
+
+.container1{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center; /* Alinha os itens do container */
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Alinha os itens da lista em linha */
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000; /* Cor dos links */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Efeito ao passar o mouse */
+}
+header {
+    background-color: #ffd25e; /* Cor de fundo */
+    padding: 20px 0;
+    display: flex;
+    align-items: center; /* Alinha verticalmente os itens no centro */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center; /* Alinha os itens do container */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Alinha os itens da lista em linha */
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000; /* Cor dos links */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Efeito ao passar o mouse */
+}
+
+footer {
+    display: flex;
+    align-items: center; /* Alinha verticalmente os itens */
+    padding: 20px;
+    background-color: #ffd25e; /* Cor de fundo do footer (opcional) */
+}
+.info {
+    display: flex;
+    flex-direction: column; /* Empilha os textos verticalmente */
+    margin-right: 20px; /* Espaçamento entre os textos e a imagem */
+}
+
+.FundoSenai {
+    height: 350px; /* Ajuste a altura da imagem de fundo */
+}
+
+
+/* Estilo para categorias */
+.categoria {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.categoria h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Estilo para livros dentro da categoria */
+.livros {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.livro {
+    width: 18%;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.livro img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+    border-radius: 8px;
+}
+
+.livro p {
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.livro:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.livro:hover img {
+    transform: scale(1.05);
+}

@@ -1,0 +1,179 @@
+header {
+    background-color: #ffd25e; /* Cor de fundo */
+    padding: 20px 0;
+    display: flex;
+    align-items: center; /* Alinha verticalmente os itens no centro */
+}
+
+.container1{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center; /* Alinha os itens do container */
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Alinha os itens da lista em linha */
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000; /* Cor dos links */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Efeito ao passar o mouse */
+}
+header {
+    background-color: #ffd25e; /* Cor de fundo */
+    padding: 20px 0;
+    display: flex;
+    align-items: center; /* Alinha verticalmente os itens no centro */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center; /* Alinha os itens do container */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Alinha os itens da lista em linha */
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000; /* Cor dos links */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Efeito ao passar o mouse */
+}
+
+
+
+.container2{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; /* Espaça os itens do rodapé */
+    align-items: flex-start; /* Alinha os itens ao topo */
+    padding: 0 20px;
+}
+
+
+.Fundo {
+    width: 100%; /* Defina a largura desejada */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.imagem-container {
+    overflow: hidden; /* Para evitar que a imagem ultrapasse o contêiner */
+    margin-top: -660px;
+    margin-left: 170px;
+}
+
+.imagem {
+    width: 320px; /* Ajuste conforme necessário */
+    transition: transform 0.3s ease; /* Suaviza a transição */
+    border-radius: 15px;
+}
+
+.imagem:hover {
+    transform: scale(1.1); /* Aumenta a imagem em 10% ao passar o mouse */
+}
+
+footer {
+    display: flex;
+    align-items: center; /* Alinha verticalmente os itens */
+    padding: 20px;
+    background-color: #ffd25e; /* Cor de fundo do footer (opcional) */
+}
+
+.info {
+    display: flex;
+    flex-direction: column; /* Empilha os textos verticalmente */
+    margin-right: 20px; /* Espaçamento entre os textos e a imagem */
+}
+
+.FundoSenai {
+    height: 350px; /* Ajuste a altura da imagem de fundo */
+}
+
+
+.tabela-amarela {
+    position: absolute; /* Permite que a tabela seja posicionada em relação ao contêiner */
+    width: 500px; /* Largura da tabela */
+    height: 100px; /* Altura da tabela */
+    border-collapse: collapse; /* Remove espaços entre as células */
+    background-color: #ffca3a; /* Cor de fundo da tabela */
+    text-align: center; /* Centraliza o texto */
+    border: 2px solid #ffca3a; /* Borda da tabela */
+    border-radius: 50px; /* Arredonda as bordas da tabela */
+    overflow: hidden; /* Garante que o arredondamento funcione corretamente */
+    margin-top: -340px; /* Distância do topo da imagem para a Tabela 1 */
+    right: 130px; /* Centraliza horizontalmente */
+    transform: translateX(-50%); /* Ajusta a centralização */
+    padding: 20px; /* Espaçamento interno da célula */
+    font-size: 25px; /* Tamanho da fonte */ 
+}
+.custom-link {
+    text-decoration: none; /* Remove o sublinhado */
+    font-family: 'Roboto', sans-serif; /* Altera a fonte para Arial */
+    font-size: 25px; /* Define o tamanho da fonte (opcional) */
+    color: #000; /* Define a cor do texto do link (opcional) */
+}
+.tabela-amarela:hover {
+    background-color: #ffbb0090; /* Cor de fundo da tabela */
+}
+
+
+
+.tabela-2 {
+    width: 300px; /* Largura da tabela */
+    height: 80px; /* Altura da tabela */
+    margin-top: -390px;; /* Distância do topo da imagem para a Tabela 2 (ajuste conforme necessário) */
+    right: 70px; /* Centraliza horizontalmente */
+    transform: translateX(-50%); /* Ajusta a centralização */
+}
+
+.tabela-3 {
+    position: absolute; /* Permite que a tabela seja posicionada em relação ao contêiner */
+    width: 550px; /* Largura da tabela */
+    height: 350px; /* Altura da tabela */
+    border-collapse: collapse; /* Remove espaços entre as células */
+    background-color: #ffffff; /* Cor de fundo da tabela */
+    text-align: center; /* Centraliza o texto */
+    border-radius: 20px; /* Arredonda as bordas da tabela */
+    overflow: hidden; /* Garante que o arredondamento funcione corretamente */
+    margin-top: -355px; /* Distância do topo da imagem para a Tabela 1 */
+    right: -170px; /* Centraliza horizontalmente */
+    transform: translateX(-50%); /* Ajusta a centralização */
+    padding: 20px; /* Espaçamento interno da célula */
+    font-size: 25px; /* Tamanho da fonte */
+    transform: translateX(-50%); /* Ajusta a centralização */
+    border: 2.5px solid #000; /* Borda nas células */
+    border-collapse: separate; /* Permite bordas individuais nas células */
+    font-family: 'Arial', sans-serif; /* Altera a fonte da tabela */
+
+}
